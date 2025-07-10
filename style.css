@@ -1,0 +1,110 @@
+html {
+    
+   background-color:yellow;
+   
+}
+
+body {
+    
+   height:20;
+
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.description{
+   color: aqua;
+
+}
+
+.subtittle{
+   color:brown;
+}
+
+.title{
+   color:red;
+}
+
+.section-content{
+
+   color:black; 
+}
+
+.hero-selection {
+  min-height: 100vh;
+  background:var(#ffdf00 ) 
+}
+
+.section-content {
+
+   color:aqua;
+}
+h2 {
+
+   color:blueviolet;
+}
+
+.nav-menu {
+   
+   display: flex;
+   gap: 100px;
+   justify-content: space-between;
+   background-color: red;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+.h1{
+   width: 10px;
+   margin: auto;
+
+}
+
+.h2{
+   width: 50px;
+
+}
+
+.p-tag {
+   width: 50px;
+}
+
+.nav-item {
+  color:black;
+
+}
+.Siomai {
+   width:500px;
+   height:500px;
+}
+
+.Siomais {
+   display:flex;
+   gap:200px;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+
+.productname {
+   font-size:x-large; 
+   text-align: center;
+}
+
+.title {
+   font-family: 'Segoe UI';
+   color: black;
+   font-size: 50px;
+}
+
+.siomai-cont{
+   box-shadow: 5px 15px black ;
+   background-color: red;
+   padding: 10px;
+   border: 5px solid black;
+}
