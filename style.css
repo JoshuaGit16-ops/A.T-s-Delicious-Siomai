@@ -26,13 +26,13 @@ p {
 }
 
 .section-content{
-
-   color:black; 
+   color: black;
+   font-family: 'Space Mono', monospace;
 }
 
 .hero-section {
-   background: linear-gradient(135deg, #ff8c00 0%, #ffd700 50%, #32cd32 100%);
-  text-align: center;
+  background-color: darkorange;
+   text-align: center;
   height: 100vh;
   display: flex;
    justify-content:center;
@@ -41,12 +41,6 @@ p {
    margin-bottom: 50;
 }
 
-
-.section-content {
-
-   color:aqua;
-
-}
 h2 {
 
    color:blueviolet;
@@ -55,27 +49,37 @@ h2 {
 .nav-menu {
    top: 0px;
    left: 0px;
-   background: linear-gradient(135deg, #ff8c00 0%, #ffd700 50%, #32cd32 100%);
+   background-color: white;
    display: flex;
    gap: 100px;
-   justify-content: space-between;
-   background-color: red;
+   width: 100%;
+   justify-content: space-around;
    padding-top: 25px;
    padding-bottom: 25px;
    padding-left: 25px;
    padding-right: 25px;
-   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.546);
+   border-bottom: 5px solid black;
 
+
+}
+
+.nav-menu a {
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   font-family: 'Space Mono', monospace;
 }
 
 .menu {
    position: fixed;
-   top: 10px;
-   left: 50%;
-   transform: translateX(-50%);
+   width: 100%;
+   left: 0px;
+   top: -16px;
    display:flex;
    align-items: center;
    justify-content: center;
+   margin: 0px;
+   font-weight:700;
 }
 
 .h1{
@@ -104,6 +108,7 @@ h2 {
 }
 
 .Siomais {
+   background-color: yellow;
    display:flex;
    gap:200px;
    align-items: center;
@@ -117,10 +122,14 @@ h2 {
 }
 
 .title {
-   font-family: 'Segoe UI';
+   font-family: 'Arial Narrow', sans-serif;
    color: black;
    font-size: 50px;
-   
+   font-weight: 900;
+}
+
+.orderbody {
+   background-color: yellow;
 }
 
 .siomai-cont{
@@ -135,7 +144,12 @@ h2 {
 }
 
 .titlediv {
+   background-color: yellow;
    display:flex;
+   justify-content: start;
+   align-items: center;
+   gap: 20px;
+   padding-left: 20px;
 }
 
 .backbtn {
@@ -145,13 +159,9 @@ h2 {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  outline: none;
   color: #fff;
   background-color: #d21427;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  height: 50px;
+  border: 5px solid black;
 }
 
 .backbtn:hover {background-color: #3e8e41}
