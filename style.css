@@ -1,12 +1,9 @@
-html {
-    
-   background-color:yellow;
-   
+.html {
+    color: yellowgreen
 }
-
 body {
+   margin: 0px;
     
-   height:20;
 
 }
 
@@ -33,14 +30,22 @@ p {
    color:black; 
 }
 
-.hero-selection {
-  min-height: 100vh;
-  background:var(#ffdf00 ) 
+.hero-section {
+   background: linear-gradient(135deg, #ff8c00 0%, #ffd700 50%, #32cd32 100%);
+  text-align: center;
+  height: 100vh;
+  display: flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction: column;
+   margin-bottom: 50;
 }
+
 
 .section-content {
 
    color:aqua;
+
 }
 h2 {
 
@@ -48,7 +53,9 @@ h2 {
 }
 
 .nav-menu {
-   
+   top: 0px;
+   left: 0px;
+   background: linear-gradient(135deg, #ff8c00 0%, #ffd700 50%, #32cd32 100%);
    display: flex;
    gap: 100px;
    justify-content: space-between;
@@ -57,6 +64,18 @@ h2 {
    padding-bottom: 25px;
    padding-left: 25px;
    padding-right: 25px;
+   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.546);
+
+}
+
+.menu {
+   position: fixed;
+   top: 10px;
+   left: 50%;
+   transform: translateX(-50%);
+   display:flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .h1{
@@ -64,6 +83,7 @@ h2 {
    margin: auto;
 
 }
+
 
 .h2{
    width: 50px;
@@ -100,6 +120,7 @@ h2 {
    font-family: 'Segoe UI';
    color: black;
    font-size: 50px;
+   
 }
 
 .siomai-cont{
@@ -107,4 +128,58 @@ h2 {
    background-color: red;
    padding: 10px;
    border: 5px solid black;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.titlediv {
+   display:flex;
+}
+
+.backbtn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #d21427;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  height: 50px;
+}
+
+.backbtn:hover {background-color: #3e8e41}
+
+.backbtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Contacts{
+
+}
+
+.Products.html {
+   background: linear-gradient(135deg, #ff8c00 0%, #ffd700 50%, #32cd32 100%);
+}
+
+.About.html {
+
+   color :linear-gradient(135deg, #ff8c00 0%, #ffd700 50%, #32cd32 100%); 
+}
+
+.backbtn {
+   text-align: center;
+
+}
+
+.tittle{
+   font-family:Times;
 }
