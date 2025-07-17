@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
       <head>
 
@@ -13,15 +14,59 @@
 
      <body class="products">
          
-      <h2 class="Text"></h2>
           
-      
-         <img src="Pork.png" class="Pork"><h2 class="Pork">Pork Siomai <input type="number"/></h2>
-         <img src="Japanese.png" class="Japanese"><h2> Japanese Siomai<input type="number"/></h2>
-          <img src="https://thumbs.dreamstime.com/b/yellow-dumpling-soy-ketch-up-228360912.jpg" class="Sharksfin"><h2>Sharksfin<input type="number"/></h2>
-         <img src="https://lzd-img-global.slatic.net/g/p/2779c30c069dfb9d5eec201a07fafc7a.jpg_720x720q80.jpg" class="BeefSiomai"><h2>Beef Siomai<input type="number"/></h2>
-          <img src="Chilli.png" class="Chili"><h2>Chilli Sauce<input type="number"/></h2> 
-        
-         
+        <div class="product-order">
+         <img src="Pork.png" class="image-display"><h2 class="Producttitle">Pork Siomai </h2><input class="order-input" type="number"/>
+          
+        </div>
+
+        <div class="product-order">
+         <img src="Japanese.png" class="image-display"><h2 class="Producttitle"> Japanese Siomai</h2><input class="order-input" type="number"/>
+          
+        </div>
+
+        <div class="product-order">
+          <img src="https://thumbs.dreamstime.com/b/yellow-dumpling-soy-ketch-up-228360912.jpg" class="image-display"><h2 class="Producttitle">Sharksfin</h2><input class="order-input" type="number"/>
+          
+        </div>
+
+        <div class="product-order">
+         <img src="https://lzd-img-global.slatic.net/g/p/2779c30c069dfb9d5eec201a07fafc7a.jpg_720x720q80.jpg" class="image-display"><h2 class="Producttitle">Beef Siomai</h2><input class="order-input" type="number"/>
+          
+        </div>
+
+        <div class="product-order">
+          <img src="Chili.png" class="image-display"><h2 class="Producttitle">Chilli Sauce</h2> <input class="order-input" type="number"/>
+          
+        </div>
+
+
+        <button class="Orderbtn" onclick="submitOrder()">Submit your Order</button>
+
          
         </body>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+        <script>
+
+            function submitOrder() {
+                Swal.fire({
+                  title: "Order Submitted",
+                  text: "The Order has been successfully submitted.",
+                  icon: "success",
+                  confirmButtonText:"OK"
+                });
+
+            }
+
+
+        </script>
+
+        
+
+
+
+</html>
